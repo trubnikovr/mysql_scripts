@@ -1,0 +1,2 @@
+mysqldump -u <user> -p<password> --databases <dbname> -r mysqlump.sql
+tar -zcvf project.tar.gz mysqlump.sql 
